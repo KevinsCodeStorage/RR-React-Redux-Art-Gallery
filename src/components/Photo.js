@@ -5,7 +5,7 @@ const Photo = () => {
     const mode = useSelector((state) => state.mode)
 
     return (
-        <div className="Photo" style={{'backgroundColor': mode.color3}}>
+        <div className="Photo">
             <img src={mode.photo} alt="author" />
         </div>
     )
